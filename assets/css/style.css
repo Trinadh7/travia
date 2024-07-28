@@ -317,14 +317,14 @@ Services Area CSS
 }
 
 .category-container > p {
-  color: var(--blue);
+  color: #f6a400;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: -50px;
 }
 
 .category-container > h1 {
-  color: var(--3rd, #14183e);
+  color: var(--3rd, #020f82);
   font-size: 64px;
   font-weight: 700;
   text-transform: capitalize;
@@ -337,36 +337,41 @@ Services Area CSS
   margin: 6rem auto;
 }
 
+.Box-container {
+  background-color: #ff1717;
+}
+
 .content-card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
   align-items: center;
-  width: 313.15px;
+  width: 380px;
   height: 393.544px;
   margin-top: -100px;
   margin-left: -70px;
 }
 
 .content-card > h2 {
-  color: #000;
-  font-size: 24px;
-  font-weight: 500;
-  width: 2px;
+  color: #f6a400;
+  font-size: 28px;
+  font-weight: 800;
+  width: 300px;
   height: 33px;
-  margin-top: 40px;
-  margin-right: 25px;
+  margin-top: 150px;
+  margin-left: 75px;
+  text-align: center;
 }
 
 .content-card > p {
   color: #000;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 200;
   line-height: 34.583px;
-  width: 212px;
+  width: 200px;
   height: 136px;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-left: 70px;
   margin-right: 0px;
 }
@@ -375,12 +380,19 @@ Services Area CSS
   align-items: center;
   margin-top: 70px;
 }
+
 .card-col {
   position: relative;
   background-color: #ffffff;
-  box-shadow: #000;
-  margin-top: -90px;
+  box-shadow: inset 0 0 10px #8d8d8d; /* Corrected the box-shadow property */
+  margin-top: -80px;
+  height: 200px;
+  border-radius: 20px; /* Adjust this value to change the curvature */
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
 }
+
 
 .card-col > .boder-orange {
   position: absolute;
@@ -400,7 +412,7 @@ Services Area CSS
   width: 117.285px;
   height: 100px;
   border-radius: 0px 39.904px 0px 13.301px;
-  background: #f7f6ff;
+  background: #270aff;
 }
 .radious-card > .back-image {
   position: relative;
@@ -451,17 +463,18 @@ Top Destination Area CSS
   text-align: center;
 }
 .topSelling-container > p {
-  color: #0017eb;
+  color: #f6a400;
   text-align: center;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
 }
 .topSelling-container > h1 {
-  color: var(--3rd, #14183e);
+  color: var(--3rd, #000b72);
   text-align: center;
   font-size: 62px;
   font-weight: 700;
   margin: 40px auto;
+  margin-top: -30px;
 }
 .row-cards {
   display: flex;
@@ -773,12 +786,12 @@ Testimonial Area CSS
   justify-content: center;
 }
 .text-choose > h1 > span {
-  color: #7f2736;
+  color: #f6a400;
   font-size: 40px;
   font-weight: 700;
 }
 .text-choose > h1 {
-  color: #080809;
+  color: #000b72;
   font-size: 40px;
   font-weight: 700;
 }
