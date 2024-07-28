@@ -591,11 +591,11 @@ Booking Area CSS
 }
 .texts span > p {
   color: var(--textclr, #5e6282);
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 350;
   line-height: 120.5%;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .background-color-blur {
@@ -884,12 +884,12 @@ Client Area CSS START
   width: 1350.493px;
   height: 484.792px;
   border-radius: 171.586px 26.602px 26.602px 26.602px;
-  background-color: #f9f7fe;
+  background-color: #d4c3ff;
 }
 .rectangle-content > h2 {
   width: 991px;
   height: 161px;
-  color: var(--textclr, #5e6282);
+  color: var(--textclr, #5c6080);
   font-size: 32px;
   font-weight: 600;
   line-height: 71.827px;
@@ -931,16 +931,17 @@ Client Area CSS START
 .rectangle-content > .email-subscribe > label {
   display: flex;
   align-items: center;
-  left: 320px;
+  left: 300px;
   position: absolute;
 }
 .rectangle-content > .email-subscribe > label > p {
-  color: var(--textcolor, #39425d);
+  color: var(--textcolor, #414e74);
   font-family: Montserrat;
   font-size: 18.622px;
   font-weight: 400;
   margin-left: 15.92px;
 }
+
 .rectangle-content > .email-subscribe {
   position: relative;
 }
@@ -1214,8 +1215,9 @@ Footer Area CSS
     margin-left: 20px;
   }
   .logo a {
-    font-size: 38px;
-    margin-left: -45px;
+    font-weight: 400;
+    font-size: 60px;
+    margin-left: -35px;
   }
   .texts span > h1 {
     font-size: 20px;
