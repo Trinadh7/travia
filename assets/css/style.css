@@ -486,7 +486,14 @@ Top Destination Area CSS
   position: relative;
   width: 417.658px;
   height: 607.866px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  border-radius: 30px; /* Add this for rounded corners */
 }
+
+
+
+
 .card-colom > .img > img {
   position: absolute;
 }
