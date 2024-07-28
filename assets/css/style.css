@@ -346,6 +346,7 @@ Services Area CSS
   width: 313.15px;
   height: 393.544px;
   margin-top: -100px;
+  margin-left: -70px;
 }
 
 .content-card > h2 {
@@ -354,7 +355,8 @@ Services Area CSS
   font-weight: 500;
   width: 2px;
   height: 33px;
-  margin-top: 80px;
+  margin-top: 40px;
+  margin-right: 25px;
 }
 
 .content-card > p {
@@ -364,7 +366,9 @@ Services Area CSS
   line-height: 34.583px;
   width: 212px;
   height: 136px;
-  margin-top: -50px;
+  margin-top: 0px;
+  margin-left: 70px;
+  margin-right: 0px;
 }
 
 .content-card > img {
